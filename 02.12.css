@@ -1,0 +1,48 @@
+.mother{
+
+    display:flex;
+    justify-content: center;
+    margin-top: 300px;
+    
+}
+
+
+.body{
+
+    width: 16px;
+    height: 160px;
+    background-color: brown;
+    z-index: -1;
+}
+
+.fire{
+    border-radius:61% 39% 100% 0% / 100% 38% 62% 0%  ;
+    width: 100px;
+    height: 100px;
+    transform: rotate(135deg);
+    background: linear-gradient(yellow ,red);
+    filter: blur(0.5px);
+    position: absolute;
+    z-index: -2;
+    margin: -80px;
+}
+.center{
+
+    width: 30px;
+    height: 30px;
+    background-color:black ;
+    border-radius:50% 50% 50% 50% / 62% 62% 43% 38%  ;
+    z-index: 0;
+    position: absolute;
+    margin: -5px;
+}
+
+.blur{
+    margin: -7px;
+    width: 20px;
+    height: 20px;    
+    border-radius: 100% 84% 100% 56% / 100% 100% 12% 17% ;
+    background-color: white;
+    filter: blur(3px);
+    position: absolute;
+}
